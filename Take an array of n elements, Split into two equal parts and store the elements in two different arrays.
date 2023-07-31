@@ -1,0 +1,12 @@
+def main():
+    a=[]
+    n=int(input("Enter the size of the array: "))
+    for i in range(0,n):
+        l=int(input(f"Enter element {i+1}: "))
+        a.append(l)
+    mid=n//2
+    b=a[:mid]
+    c=a[mid:]
+    print(b)
+    print(c)
+main()
